@@ -38,18 +38,15 @@ function App() {
           </p>
 
           <div className="project-screenshots">
-            <img
-              src="/src/assets/FreakyFashion-main.png"
-              alt="Freaky Fashion startsida"
-            />
+            <img src={freakyFashionMain} alt="Freaky Fashion startsida" />
 
             <img
-              src="/src/assets/FreakyFashion-product.png"
+              src={freakyFashionProduct}
               alt="Freaky Fashion produktdetaljsida"
             />
 
             <img
-              src="/src/assets/FreakyFashion-SearchResult.png"
+              src={freakyFashionSearchResult}
               alt="Freaky Fashion sökresultat"
             />
           </div>
@@ -80,15 +77,9 @@ function App() {
           </p>
 
           <div className="project-screenshots">
-            <img
-              src="/src/assets/Nova-main_index.html.png"
-              alt="Nova webbshop"
-            />
+            <img src={novaMainIndex} alt="Nova webbshop" />
 
-            <img
-              src="/src/assets/Nova-main_cart.html.png"
-              alt="Nova webbshop kundvagn"
-            />
+            <img src={novaMainCart} alt="Nova webbshop kundvagn" />
           </div>
         </main>
       </div>
@@ -118,17 +109,17 @@ function App() {
 
           <div className="project-screenshots">
             <img
-              src="/src/assets/buster-keaton-filmfestival-main_index.html.png"
+              src={busterKeatonMainIndex}
               alt="Buster Keaton Filmfestival startsida"
             />
 
             <img
-              src="/src/assets/buster-keaton-filmfestival-main_aboutkeaton.html.png"
+              src={busterKeatonAboutKeaton}
               alt="Buster Keaton About Keaton sida"
             />
 
             <img
-              src="/src/assets/buster-keaton-filmfestival-main_myscreenings.html.png"
+              src={busterKeatonMyScreenings}
               alt="Buster Keaton My Screenings sida"
             />
           </div>
@@ -183,10 +174,7 @@ function App() {
           <div className="projects">
             <article className="project-card">
               <div className="project-image">
-                <img
-                  src="/src/assets/FreakyFashion-main.png"
-                  alt="Freaky Fashion webbshop"
-                />
+                <img src={freakyFashionMain} alt="Freaky Fashion webbshop" />
               </div>
 
               <div className="project-content">
@@ -210,10 +198,7 @@ function App() {
 
             <article className="project-card">
               <div className="project-image">
-                <img
-                  src="/src/assets/Nova-main_index.html.png"
-                  alt="Nova webbshop"
-                />
+                <img src={novaMainIndex} alt="Nova webbshop" />
               </div>
 
               <div className="project-content">
@@ -238,7 +223,7 @@ function App() {
             <article className="project-card">
               <div className="project-image">
                 <img
-                  src="/src/assets/buster-keaton-filmfestival-main_index.html.png"
+                  src={busterKeatonMainIndex}
                   alt="Buster Keaton Filmfestival"
                 />
               </div>
