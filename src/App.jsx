@@ -1,5 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import freakyFashionMain from "./assets/FreakyFashion-main.png";
+import freakyFashionProduct from "./assets/FreakyFashion-product.png";
+import freakyFashionSearchResult from "./assets/FreakyFashion-SearchResult.png";
+import novaMainIndex from "./assets/Nova-main_index.html.png";
+import novaMainCart from "./assets/Nova-main_cart.html.png";
+import busterKeatonMainIndex from "./assets/buster-keaton-filmfestival-main_index.html.png";
+import busterKeatonAboutKeaton from "./assets/buster-keaton-filmfestival-main_aboutkeaton.html.png";
+import busterKeatonMyScreenings from "./assets/buster-keaton-filmfestival-main_myscreenings.html.png";
 
 function App() {
   const [showBuster, setShowBuster] = useState(false);
