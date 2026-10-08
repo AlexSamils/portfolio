@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import freakyFashionMain from "./assets/FreakyFashion-main.png";
-import freakyFashionProduct from "./assets/FreakyFashion-product.png";
+import freakyFashionProduct from "./assets/FreakyFashion-Product.png";
 import freakyFashionSearchResult from "./assets/FreakyFashion-SearchResult.png";
 import novaMainIndex from "./assets/Nova-main_index.html.png";
 import novaMainCart from "./assets/Nova-main_cart.html.png";
